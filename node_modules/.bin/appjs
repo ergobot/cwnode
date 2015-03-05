@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var argv = require('optimist').argv,
+	path = require('path'),
+	appjs = require('../lib/appjs');
+
+appjs.run(argv);
